@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+
+import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
@@ -38,7 +39,7 @@ nav {
   margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
+nav a .router-link-exact-active {
   color: var(--color-text);
 }
 
