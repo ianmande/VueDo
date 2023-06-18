@@ -1,4 +1,4 @@
 {
-  "*.ts": ["prettier --write", "eslint"],
-  "*.vue": ["prettier --write", "eslint"]
+  "*.ts": ["prettier --write", "npx eslint"],
+  "*.vue": ["prettier --write", "npx eslint"]
 }

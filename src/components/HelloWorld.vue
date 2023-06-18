@@ -2,7 +2,7 @@
 defineProps<{
   msg: string
 }>()
-console.kg()
+console.kga()
 </script>
 
 <template>
