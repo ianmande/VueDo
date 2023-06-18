@@ -1,8 +1,8 @@
 <script setup lang="ts">
 defineProps<{
-  msg: string
-}>()
-console.kga()
+  msg: string;
+}>();
+console.log('error charter');
 </script>
 
 <template>
