@@ -2,6 +2,7 @@
 defineProps<{
   msg: string
 }>()
+console.kg()
 </script>
 
 <template>
