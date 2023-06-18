@@ -2,7 +2,6 @@
 defineProps<{
   msg: string;
 }>();
-console.log('error charter');
 </script>
 
 <template>
