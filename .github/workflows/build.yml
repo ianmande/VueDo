@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:
-    name: Test nad converage SonarCloud
+    name: Build, test and converage SonarCloud
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
