@@ -7,6 +7,7 @@
     "composite": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "moduleResolution": "node"
   }
 }
